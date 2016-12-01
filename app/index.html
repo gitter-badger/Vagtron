@@ -1,0 +1,42 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+    <title>Vagtron</title>
+
+    <!-- CSS Include -->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,400italic">
+    <link rel="stylesheet" type="text/css" href="../bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
+
+</head>
+<body ng-app="vagtron-app" ng-controller="indexCtrl" layout="row">
+    <md-sidenav layout="column" id="firstSidebar" md-is-locked-open="true">
+        <md-toolbar layout="row">
+            <div class="md-toolbar-tools">
+                <h2>
+                    <span>Vagtron</span>
+                </h2>
+            </div>
+        </md-toolbar> 
+        <md-content>
+        Side navigation Panel
+        </md-content>
+    </md-sidenav>
+
+    <md-content flex layout="column">
+        <ng-view>
+            <p>Main content</p>
+        </ng-view>
+    </md-content>
+
+    <!-- JS Include -->
+    <script type="text/javascript" src="../bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-aria/angular-aria.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-animate/angular-animate.js"></script>
+    <script type="text/javascript" src="../bower_components/angular-material/angular-material.js"></script>
+
+    <!-- App JS Include -->
+    <script type="text/javascript" src="scripts/index.js"></script>
+    <script type="text/javascript" src="scripts/controller/home.js"></script>
+</body>  
+</html>  

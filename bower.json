@@ -1,0 +1,26 @@
+{
+  "name": "vagtron",
+  "homepage": "https://github.com/Dezodev/Vagtron",
+  "authors": [
+    "dezodev <dezodev@gmail.com>"
+  ],
+  "description": "vagrant manager",
+  "main": "main.js",
+  "keywords": [
+    "vagrant",
+    "manager"
+  ],
+  "license": "Apache-2.0",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.9",
+    "angular-material": "^1.1.1"
+  }
+}
